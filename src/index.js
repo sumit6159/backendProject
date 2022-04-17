@@ -28,10 +28,10 @@ app.get("/signOut", authenticate, async (req, res) => {
     }
   });
 
-app.listen(4564, async function () {
+app.listen(5000, async function () {
     try {
         await connect()
-        console.log('listening on port 4564')
+        console.log('listening on port 5000')
     } catch (error) {
         console.log('error:', error)
     }
